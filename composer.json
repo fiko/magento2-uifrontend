@@ -1,0 +1,17 @@
+{
+    "name": "fiko/magento2-uifrontend",
+    "description": "Implementing UI Component on Frontend Side.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fiko\\UiFrontEnd\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
